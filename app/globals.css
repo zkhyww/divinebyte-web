@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes etherMove {
+  0% { transform: translate3d(-2%, 0, 0) scale(1); filter: saturate(100%); }
+  50% { transform: translate3d(2%, -1%, 0) scale(1.05); filter: saturate(120%); }
+  100% { transform: translate3d(-2%, 0, 0) scale(1); filter: saturate(100%); }
+}
+
+.animate-ether { animation: etherMove 14s ease-in-out infinite; }

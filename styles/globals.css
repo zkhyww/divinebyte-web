@@ -1,0 +1,11 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #fff; color: #111; }
+.container { max-width: 880px; margin: 0 auto; padding: 16px; }
+.row { display: flex; gap: 12px; align-items: center; }
+.bubble { background: #f4f4f5; border-radius: 12px; padding: 12px; }
+.btn { padding: 8px 12px; border: 1px solid #ddd; border-radius: 10px; background: #fff; }
+.tabs { display: flex; gap: 8px; }
+.avatar { width: 64px; height: 64px; border-radius: 50%; background: #eee; }
+.speaking { animation: speak 1s infinite; }
+@keyframes speak { 0% { transform: scale(1); } 50% { transform: scale(1.04); } 100% { transform: scale(1); } }
+
